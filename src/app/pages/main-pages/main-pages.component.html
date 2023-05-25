@@ -1,0 +1,11 @@
+<div class="container my-5">
+  <h1>Productos</h1>
+  <hr />
+
+
+  <div class="row">
+      <div *ngFor="let producto  of productos"   class="col-xl-4 col-sm-6" >
+        <app-card class="components" [producto]="producto"> </app-card>
+
+    </div>
+</div>
